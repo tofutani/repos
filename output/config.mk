@@ -3,6 +3,7 @@ IMPL_FILES := \
 	WSC++/WeatherStation.cc \
 	WSC++/Sensors/Temperature.cc \
 	WSC++/Sensors/WindSpeed.cc \
+	WSC++/Sensors/Pressure.cc \
 	WSC++/main.cc
 
 DEF_FILES := \
@@ -12,6 +13,7 @@ DEF_FILES := \
 	WSC++/Sensors/carspecA.h \
 	WSC++/Sensors/WindSpeed.h \
 	WSC++/Sensors/Sensor.h \
+	WSC++/Sensors/Pressure.h \
 	WSC++/Makefile
 
 MISC_FILES := \
