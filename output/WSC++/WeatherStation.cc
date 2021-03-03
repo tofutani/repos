@@ -8,8 +8,6 @@ WeatherStation::WeatherStation () {
 // 
 
 // 
-  m_Console.addSensor(m_Pressure);
-// 
 
 //     
   m_Console.addSensor(m_WindSpeed);

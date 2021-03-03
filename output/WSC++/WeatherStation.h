@@ -7,8 +7,6 @@
 #include <Sensors/Temperature.h>
 // 
   
-//   
-#include <Sensors/Pressure.h>
 // 
   
 //   
@@ -25,8 +23,6 @@ class WeatherStation {
   Temperature   m_Temp;
 // 
   
-//   
-  Pressure      m_Pressure;
 // 
   
 //   
