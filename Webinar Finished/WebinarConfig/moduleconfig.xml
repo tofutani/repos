@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<moduleconfigs name="Default">
+  <moduleconfig ignoreerrors="false" name="Default">
+    <input use="false"/>
+    <output clear="false" create="false" recover="false" use="false"/>
+    <mode type="overwrite"/>
+    <module exclude="" include="/variant" name="Convert to transformer action list" tname="standard transformation">
+      <parameter name="output file" type="ps:path"/>
+      <parameter name="execution time" type="ps:string">before</parameter>
+    </module>
+    <module exclude="" include="/variant" name="Makefile" tname="makefile">
+      <parameter name="out" type="">config.mk</parameter>
+      <parameter name="makesystem" type="ps:string">gmake</parameter>
+      <parameter name="prefix" type="ps:string"/>
+      <parameter name="execution time" type="ps:string">before</parameter>
+    </module>
+    <module exclude="" include="/variant" name="Execute transformer action list" tname="actionlist">
+      <parameter name="in" type="ps:path"/>
+      <parameter name="destroy" type="ps:boolean"/>
+      <parameter name="execution time" type="ps:string">after</parameter>
+    </module>
+  </moduleconfig>
+</moduleconfigs>

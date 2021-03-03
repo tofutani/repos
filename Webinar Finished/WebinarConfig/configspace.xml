@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="i05ZwQx3BUptv90hO" cm:version="1.1" cm:type="ps:configspace"><cm:head></cm:head>
+<cm:elements cm:rootid="ilFDlcGSm642GRrCI"><cm:element cm:id="ilFDlcGSm642GRrCI" cm:class="ps:lookup"><cm:relations cm:id="ir2EynLCfhmm2xb0M" cm:class="ps:models"><cm:relation cm:id="ioafglYGF6Jshh9jX" cm:type="ps:used"><cm:target cm:id="iwim62SGcm74qK2fw">./ikzEr4Cpq4i3phLDj</cm:target>
+<cm:target cm:id="iLeX-qnr1HLj0OwAA">./iG7t9N6fzcTY5Fuys</cm:target>
+</cm:relation>
+</cm:relations>
+<cm:properties><cm:property cm:id="i3zwN-l-HrbAMuCMm" cm:type="ps:path" cm:name="module_base"><cm:constant cm:id="iD8id1kX7jiK_EBM3" cm:type="ps:path">$(WORKSPACE)/</cm:constant>
+</cm:property>
+<cm:property cm:id="iZ6UbpZsP4RE0TXpl" cm:type="ps:path" cm:name="input_url"><cm:constant cm:id="iQPLFESTgV1rTbenD" cm:type="ps:path">C:/repo2/src/demo</cm:constant>
+</cm:property>
+<cm:property cm:id="i-nLVrI8_pAb-jnd4" cm:type="ps:path" cm:name="output_url"><cm:constant cm:id="iZRiOVuiHjPyc80QR" cm:type="ps:path">C:/repo2/output</cm:constant>
+</cm:property>
+<cm:property cm:id="ine80KFe-QaZZAZDV" cm:type="ps:path" cm:name="transform_module"><cm:constant cm:id="iyKkIGDXMs70bmL0o" cm:type="ps:path">$(PROJECT)/WebinarConfig/moduleconfig.xml</cm:constant>
+</cm:property>
+<cm:property cm:id="i-E--SS-WOr5zXqiU" cm:type="ps:string" cm:name="clear_dir"><cm:constant cm:id="ietgHa_Rjk-BDyQs1" cm:type="ps:string">false</cm:constant>
+</cm:property>
+<cm:property cm:id="ilFYPrcrP_WCRdetQ" cm:type="ps:string" cm:name="create_dir"><cm:constant cm:id="iokZzWrnnS_qocB5F" cm:type="ps:string">false</cm:constant>
+</cm:property>
+<cm:property cm:id="iY19qajpjA4wopMa2" cm:type="ps:string" cm:name="recover"><cm:constant cm:id="itcBHWAES8E_Fb-Z4" cm:type="ps:string">false</cm:constant>
+</cm:property>
+<cm:property cm:id="iui-rKbAQlmBJhQdS" cm:type="ps:string" cm:name="conf_clear_dir"><cm:constant cm:id="iXlhMbV_C3F3an50S" cm:type="ps:string">true</cm:constant>
+</cm:property>
+<cm:property cm:id="iKxsrIbYWWEtfxAlW" cm:type="ps:string" cm:name="conf_create_dir"><cm:constant cm:id="ihAepM5nd1JN9nugh" cm:type="ps:string">true</cm:constant>
+</cm:property>
+<cm:property cm:id="ijBOqxdowKjJy4kMQ" cm:type="ps:string" cm:name="ignore_transmod_errors"><cm:constant cm:id="iL7ykhLn8C6ONEb24" cm:type="ps:string">false</cm:constant>
+</cm:property>
+</cm:properties>
+</cm:element>
+<cm:element cm:id="ikzEr4Cpq4i3phLDj" cm:name="ivfURrK0n-FBMwfSlRAaGw1GywfMzLzr0M5t0mtQk" cm:type="ps:used" cm:class="ps:model"><cm:properties><cm:property cm:id="i9fHbbsX6cYlt58Uv" cm:type="ps:string" cm:name="model_type"><cm:constant cm:id="i1KDKXp9BShoblFuK" cm:type="ps:string">ps:ccfm</cm:constant>
+</cm:property>
+<cm:property cm:id="iUJ0Eb2ssUT8qGIo6" cm:type="ps:path" cm:name="model_path"><cm:constant cm:id="idu0I_BeSJ1_JSmVU" cm:type="ps:path">$(PROJECT)/WebinarFamily.ccfm</cm:constant>
+</cm:property>
+<cm:property cm:id="itJMAe8L_825tajXL" cm:type="ps:integer" cm:name="model_rank"><cm:constant cm:id="iX_Py4BDmHw33o692" cm:type="ps:integer">1</cm:constant>
+</cm:property>
+<cm:property cm:id="i7_FLXXD6JsBq4RXv" cm:type="ps:string" cm:name="model_vartype"><cm:constant cm:id="iBguYKQtT6NIHXOLZ" cm:type="ps:string">ps:mandatory</cm:constant>
+</cm:property>
+</cm:properties>
+</cm:element>
+<cm:element cm:id="iG7t9N6fzcTY5Fuys" cm:name="idshoE7iJ-0cGtMz3" cm:type="ps:used" cm:class="ps:model"><cm:properties><cm:property cm:id="i50aXDUizaC17wtoP" cm:type="ps:string" cm:name="model_type"><cm:constant cm:id="i1gg_JCR85aLt7dK9" cm:type="ps:string">ps:fm</cm:constant>
+</cm:property>
+<cm:property cm:id="iWg93HZsEBWwuzoT4" cm:type="ps:path" cm:name="model_path"><cm:constant cm:id="iIV3qituqzhCUx4FF" cm:type="ps:path">$(PROJECT)/WebinarFeatures.xfm</cm:constant>
+</cm:property>
+<cm:property cm:id="imvvrRHB6gtmCt495" cm:type="ps:integer" cm:name="model_rank"><cm:constant cm:id="ijCcYQGZbN0yXUPaL" cm:type="ps:integer">1</cm:constant>
+</cm:property>
+<cm:property cm:id="io3ZTPT4nqq0aYKFl" cm:type="ps:string" cm:name="model_vartype"><cm:constant cm:id="iKHnGpIMKsEijukJ1" cm:type="ps:string">ps:mandatory</cm:constant>
+</cm:property>
+</cm:properties>
+</cm:element>
+</cm:elements>
+</cm:consulmodel>

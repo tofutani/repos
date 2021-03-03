@@ -1,0 +1,417 @@
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="idshoE7iJ-0cGtMz3" cm:version="1.5" cm:type="ps:fm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="idshoE7iJ-0cGtMz3name" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="idshoE7iJ-0cGtMz3nameval" cm:type="ps:string">WebinarFeatures</cm:constant>
+      </cm:property>
+      <cm:property cm:id="idshoE7iJ-0cGtMz3author" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="idshoE7iJ-0cGtMz3authorval" cm:type="ps:string">unknown</cm:constant>
+      </cm:property>
+      <cm:property cm:id="idshoE7iJ-0cGtMz3version" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="idshoE7iJ-0cGtMz3versionval" cm:type="ps:string">0.1</cm:constant>
+      </cm:property>
+      <cm:property cm:id="idshoE7iJ-0cGtMz3created" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="idshoE7iJ-0cGtMz3createdval" cm:type="ps:datetime">2006-10-27T17:57:52Z</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="it5303SmvJjtxRX_g">
+    <cm:element cm:id="it5303SmvJjtxRX_g" cm:name="WebinarFeatures" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iB-rZCYnM9_kPvBSl" cm:class="ps:children">
+        <cm:relation cm:id="iwWBnG1ozzFCHByk5" cm:type="ps:or" cm:range="[1,n]">
+          <cm:target cm:id="iFQfn44ppOiJ97SB_">./isTznlxVCmXbZu6PG</cm:target>
+          <cm:target cm:id="iWMsNhIZFbQEm0JMH">./iSKFz41-mN_08Jx3M</cm:target>
+          <cm:target cm:id="i9lCtqlzwCZGdZKzc">./iWzCGk-J42sPPmqVD</cm:target>
+          <cm:target cm:id="iI88ZWetGGATJGZ-I">./iQZbSMVgjhjJAn69O</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="irveM4ihZxpA88mvZ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="igCm12G3FlXH9xqx3" cm:type="ps:string">danilo</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iSFcZsBxq2i7qg53e" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iKNnvouFngkDRpSqv" cm:type="ps:datetime">2006-10-27T15:57:52Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKEsn_0tKR1skVHFq" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iBqEgiKCMCNV0rtMD" cm:type="ps:string">51273</cm:constant>
+        </cm:property>
+        <cm:property cm:id="if_EM7ogWB33qHjnw" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iE5Q4nnDPMk4vpfiZ" cm:type="ps:datetime">2021-03-02T00:54:55.191Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id319872" cm:mimetype="text/plain" cm:encoding="utf-8">WebinarFeatures</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iBvVbJyZI0oUSfmB6" cm:name="TemperatureC" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iJ8TlT-g18Ym_XaNa" cm:class="ps:parents">
+        <cm:relation cm:id="iXbj5BStW4Et6rCTc" cm:type="ps:parent">
+          <cm:target cm:id="itenMXZ9-yCLbrtwy">./isTznlxVCmXbZu6PG</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iXnpLzwYRvyCtZzk6" cm:class="ps:dependencies">
+        <cm:relation cm:id="iG6RgMq3AYFKhKeIJ" cm:type="ps:conflicts">
+          <cm:target cm:id="ijL7J51NTMZWHFK9U">./itrsTjp7HM_jyY5tk</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iJivuDT_Cu-LOLGKw" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="isxhl2GzoXEYdHFCZ" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="izrSy7Huv3X9gCEoj" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iDggPo466CfVgAeM8" cm:type="ps:datetime">2006-10-19T19:18:39Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4Ti3Torg0B30LuSY" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iaVKvbFKBAV3jV5aC" cm:type="ps:string">takao</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iGCFHn8qAW_1HWOuH" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i-vpm28s0NmLvIbrX" cm:type="ps:datetime">2007-12-14T09:09:33.562Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id330223" cm:mimetype="text/plain" cm:encoding="utf-8">°C</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iQ3EPjFeMxXX-ezBs" cm:name="TemperatureF" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iqziIuo8g5hVsfVac" cm:class="ps:parents">
+        <cm:relation cm:id="iGYjJDw7pSuxj0yLg" cm:type="ps:parent">
+          <cm:target cm:id="iFQrI6RiGnbbdaOUE">./isTznlxVCmXbZu6PG</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ioQIRyqtAi_11B325" cm:class="ps:dependencies">
+        <cm:relation cm:id="iJxxrJLubhoYQSF20" cm:type="ps:conflicts">
+          <cm:target cm:id="iTtwMZN7U-qrV5j7H">./i_x1e_H9NH5vFvNqX</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iSUHncyqSKWSPASLf" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i8bjanpNVyajYLTH8" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4jCG8RcT-FCbzasp" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iqN_Etya1Ls7EdNfw" cm:type="ps:datetime">2006-10-19T19:18:57Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iiMt_194G3BaQM16I" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i9B9OAxWn2ouaT6Mk" cm:type="ps:string">takao</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ilrI0xEKtneZhPHbb" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iIJEO5maP0UCPoGqk" cm:type="ps:datetime">2007-12-26T03:24:30.578Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id535079" cm:mimetype="text/plain" cm:encoding="utf-8">°F</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="isTznlxVCmXbZu6PG" cm:name="Temperature" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="ilBRtVMVOV-yyG5wM" cm:class="ps:children">
+        <cm:relation cm:id="iKB2wD_tdIt5XODFY" cm:type="ps:alternative">
+          <cm:target cm:id="iu22uIyCot3pox2bW">./iBvVbJyZI0oUSfmB6</cm:target>
+          <cm:target cm:id="irzz43Guv39m9_mTI">./iQ3EPjFeMxXX-ezBs</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iP1Y_XZbP9fr78PmY" cm:class="ps:parents">
+        <cm:relation cm:id="iFYjZxdNJMZJcuja8" cm:type="ps:parent">
+          <cm:target cm:id="i99itA3AVDg4Uo-NJ">./it5303SmvJjtxRX_g</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iTEeGn4uPrISZ6Fxo" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="il-wvXdxd_KSmvLHA" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iK5NZ2eNyXk0sdVhu" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ilZftI3DUXxGToKA_" cm:type="ps:datetime">2006-10-19T19:17:35Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iIFAaoCJ2ZlQmAAGV" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="itifFwuVMYXuFmu3y" cm:type="ps:string">danilo</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMWYPMq-SBJslTv_Z" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i8K_ufSblwHL80Y5I" cm:type="ps:datetime">2006-11-04T11:52:45Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id539184" cm:mimetype="text/plain" cm:encoding="utf-8">Temperature</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ibzWMIUZDN5KQoRwA" cm:name="WindSpeedKMH" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="ikmoe09KkwtZ4DCzw" cm:class="ps:parents">
+        <cm:relation cm:id="i2SJexb4VT80MnAxR" cm:type="ps:parent">
+          <cm:target cm:id="i0JXMvhNYU0zOkD3l">./i_x1e_H9NH5vFvNqX</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="igSh0eAVBohQfjdP6" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i6kKYJvHU-JUEB9U4" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iH3AJUkOu2y_KgOnN" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iLSwDPUU4j9leMUCq" cm:type="ps:datetime">2006-10-19T19:19:26Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i45vfKaaisz0J3HLB" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iwxKuEs9fbnpjg8Wp" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3eARGPjnio4MIaVn" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iKsajWFlt6hq5RQWb" cm:type="ps:datetime">2006-10-19T19:19:40Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id341299" cm:mimetype="text/plain" cm:encoding="utf-8">km/h</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="imS0bBOgJU1-Ccfip" cm:name="WindSpeedMS" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="ieFLJ_CV9zYDrcqSR" cm:class="ps:parents">
+        <cm:relation cm:id="ixbKCnZBx3XVzuPK3" cm:type="ps:parent">
+          <cm:target cm:id="iYe686JQLcUaVlDBr">./i_x1e_H9NH5vFvNqX</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ia_fouyPys6hEpc42" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iX2sMYmZ1q8wsBq1V" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqh62rSGrQawJzEIZ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ipGCoB75cq7OYEIwM" cm:type="ps:datetime">2006-10-19T19:19:26Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iscuaZTX6hk9Im8Az" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i4mswKoCSPLnXTeRY" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikuUu1_o8ctqPT-jN" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iMi5z3CyepAGn8ZRs" cm:type="ps:datetime">2006-10-19T19:19:26Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id344105" cm:mimetype="text/plain" cm:encoding="utf-8">m/s</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="i_x1e_H9NH5vFvNqX" cm:name="Metric" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iNO6-aLczPZojEkbh" cm:class="ps:children">
+        <cm:relation cm:id="iIagiiwHLBfT6our4" cm:type="ps:alternative">
+          <cm:target cm:id="iNHInmUAb3o0O0qGH">./ibzWMIUZDN5KQoRwA</cm:target>
+          <cm:target cm:id="ipBmDOLEVnW_NZaLc">./imS0bBOgJU1-Ccfip</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="itb_99ri_N6-pVeGL" cm:class="ps:parents">
+        <cm:relation cm:id="iV6Hfn5bKDrFD4PZU" cm:type="ps:parent">
+          <cm:target cm:id="iwJPH-950PMjCONf8">./iSKFz41-mN_08Jx3M</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iMAZKnJpX8yfOs6q4" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i4MrxVKGlFIAzfRar" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7U_Vzf1eUYE82Htr" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ii5Wvl7kGf8FOV0qj" cm:type="ps:datetime">2006-10-19T19:24:39Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5nxgaBaPUg56_ZQQ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iO22VggMnbphICidg" cm:type="ps:string">danilo</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1MOOAH6YfWj3okzH" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i2Y-WH7iLHo2KHZhr" cm:type="ps:datetime">2006-11-04T11:58:53Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id347745" cm:mimetype="text/plain" cm:encoding="utf-8">Metric</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="i_cej-NccL1w4aKGa" cm:name="WindSpeedMPH" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iDpM4kYsH_9EcS0hr" cm:class="ps:parents">
+        <cm:relation cm:id="iOTxqvVIjs3vvsZM_" cm:type="ps:parent">
+          <cm:target cm:id="iX2sKW6e9R8qBK7s_">./itrsTjp7HM_jyY5tk</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="inu0da8DG_Max2QU5" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ikoFvxhwUt3NAX1ey" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iIxlV1nNIAyqw4zOk" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iG2ZEQuck74Ez3Ofz" cm:type="ps:datetime">2006-10-19T19:19:26Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihz0BvTcjJpPr7Xa8" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i2Kh0d9qtxgSPSRNr" cm:type="ps:string">takao</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iF_dYwV2jLQ_7_S0l" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="in8XnJUEniHed22g4" cm:type="ps:datetime">2007-12-17T04:09:00.406Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id334463" cm:mimetype="text/plain" cm:encoding="utf-8">mph</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iKRcKttzSq-s7Gb8d" cm:name="WindSpeedMPS" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iHUMOD17yCtJyarcL" cm:class="ps:parents">
+        <cm:relation cm:id="igHitucKsSPZKprzn" cm:type="ps:parent">
+          <cm:target cm:id="ih50VvQSMFz_OjvZX">./itrsTjp7HM_jyY5tk</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iw7PapIPNPPHSjuQd" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iQ-NnAqqxn89P0mdD" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipJieIwJs-0a4iM-n" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iJFH9OiuNIcEZMcKX" cm:type="ps:datetime">2006-10-19T19:19:26Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="icdDGTX7RHMfStK-N" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i2bDPlnP5VwVmeR9m" cm:type="ps:string">takao</cm:constant>
+        </cm:property>
+        <cm:property cm:id="is6tpJrN8bm5op2mQ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ikc5FbS4gBS6nTRIF" cm:type="ps:datetime">2007-12-14T09:46:02.125Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id347748" cm:mimetype="text/plain" cm:encoding="utf-8">fps</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="itrsTjp7HM_jyY5tk" cm:name="USUK" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iKvkCfcEaLny3v5gz" cm:class="ps:children">
+        <cm:relation cm:id="i0l3wP4wZq1NPmc3N" cm:type="ps:alternative">
+          <cm:target cm:id="i__JiDNSRPeMWRgSW">./i_cej-NccL1w4aKGa</cm:target>
+          <cm:target cm:id="ib_y20Aovj4stIVZm">./iKRcKttzSq-s7Gb8d</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i1YM49nFEsyA6hBYl" cm:class="ps:parents">
+        <cm:relation cm:id="iZkF41Glu5c7qGmOT" cm:type="ps:parent">
+          <cm:target cm:id="icN7UOlB0Y--fWGz9">./iSKFz41-mN_08Jx3M</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iw_-paKOnAcJuXAzO" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="imKeRrtij2PXD2XGm" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="il1tFSmcRE0delpeu" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i3-OZbTZUZSFiWqzv" cm:type="ps:datetime">2006-10-19T19:25:28Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ioo8HueP0BP7wDO-t" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i9Xdf7Ywz1K4Uzo2Y" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqxX0Z7V38BZQcuMh" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="irLgw9w64W_IDvwtm" cm:type="ps:datetime">2006-10-19T19:25:28Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id341596" cm:mimetype="text/plain" cm:encoding="utf-8">American/British</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iKkqeij9AJ7yRhZjt" cm:name="WindSpeedKnot" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iDkhxROBJRW_M34a3" cm:class="ps:parents">
+        <cm:relation cm:id="izzwgr44lESuB6Ax3" cm:type="ps:parent">
+          <cm:target cm:id="iXlRTKFl58YdOfBJe">./iSKFz41-mN_08Jx3M</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iXfAEvf_9pROirqNF" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i3g0QxVBshydnQ1nG" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ic2pQhGGhcZx_XXn-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iMaEgDaOp7nLuCTWG" cm:type="ps:datetime">2006-10-19T19:19:26Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKQ9uu6T26DpzIqLq" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iveMZaU4W-QI3DkIX" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihB6D-oyTHxORjIFI" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iWjM2ukuEgjGJm_lz" cm:type="ps:datetime">2006-10-19T19:19:51Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id335483" cm:mimetype="text/plain" cm:encoding="utf-8">Knot</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iBpWMhI8bB7C2M8OV" cm:name="WindSpeedBft" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="ifVo48u_yZXydXJcU" cm:class="ps:parents">
+        <cm:relation cm:id="iaamD9IPOQNZeawx5" cm:type="ps:parent">
+          <cm:target cm:id="iyfSS4cHoUe6VEj_s">./iSKFz41-mN_08Jx3M</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i6jTwIPluyTZDyojG" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ifvfE11t00JGpdUCr" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iW7N0aI_3QwbVid-J" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iLnQ6ElzdtgyYHEVm" cm:type="ps:datetime">2006-10-19T19:19:26Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="id_iq4PTLAvHjxV16" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ihCdY7m4vBhUPxJz2" cm:type="ps:string">takao</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikvgIIb4L2A6FsEOC" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i7C64mnJnRWXSefmd" cm:type="ps:datetime">2007-12-14T08:44:36.437Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id353119" cm:mimetype="text/plain" cm:encoding="utf-8">Bft</cm:mimedesc>
+      </cm:vname>
+      <cm:desc>
+        <cm:mimedesc cm:id="i2jD8BzGLhWb5IlIJ" cm:mimetype="text/plain" cm:encoding="utf-8">wind velocity , Beaufort
+</cm:mimedesc>
+      </cm:desc>
+    </cm:element>
+    <cm:element cm:id="iSKFz41-mN_08Jx3M" cm:name="WindSpeed" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iX8UJuuvE2OH1fRia" cm:class="ps:children">
+        <cm:relation cm:id="io0ABviU-M-Jw8Iao" cm:type="ps:alternative">
+          <cm:target cm:id="iz1NDWjqmb6izseYm">./i_x1e_H9NH5vFvNqX</cm:target>
+          <cm:target cm:id="iMrk7LwzIm4mNoJLT">./itrsTjp7HM_jyY5tk</cm:target>
+          <cm:target cm:id="i_hTFUpSIJ-6fhQ3x">./iKkqeij9AJ7yRhZjt</cm:target>
+          <cm:target cm:id="i8bNcIAKUVmsgCwqd">./iBpWMhI8bB7C2M8OV</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iGLgs-NJlCi7TUhy4" cm:class="ps:parents">
+        <cm:relation cm:id="ivknjvS6WCYLcjbO2" cm:type="ps:parent">
+          <cm:target cm:id="iI-MDJIpNOp-Kxp5U">./it5303SmvJjtxRX_g</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="io4-wyACkR2lepjid" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i6rAt1Q6iBWANsiE6" cm:type="ps:string">holger</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivoYOgomCE4UTQBy6" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i08Yt5-2wkQpotpXH" cm:type="ps:datetime">2006-10-19T19:17:57Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-s2xeA2WFf9Cnz4S" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ia2s8GhruaiC4Dwnk" cm:type="ps:string">takao</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i2EBF7-h3wSWeCDVQ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iuvdXs-E_cvnM8RIw" cm:type="ps:datetime">2007-12-14T08:46:10.203Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="idshoE7iJ-0cGtMz3id515544" cm:mimetype="text/plain" cm:encoding="utf-8">Wind Speed</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iWzCGk-J42sPPmqVD" cm:name="AirPressure" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="iDQvUDbMz2QMNjcmS" cm:class="ps:parents">
+        <cm:relation cm:id="ifoZ9hm1XyeZ3cog6" cm:type="ps:parent">
+          <cm:target cm:id="ig6cvnLrcT6nQti16">./it5303SmvJjtxRX_g</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iHywSV5h-MCNPpOwf" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iiTCOTIWXIBmp3w8J" cm:type="ps:string">51273</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iFvgnSjK4vgjEfTmd" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iljjZDwEmnxXhfN-B" cm:type="ps:datetime">2021-02-16T02:21:56.802Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivj_ZaI3hCWDJ1aWg" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ilU6NLtajf9837HNH" cm:type="ps:string">51273</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-n8E7zKYZP8LgiEU" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iEvIdQOqFPA0uGqJT" cm:type="ps:datetime">2021-02-16T02:21:56.802Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iQZbSMVgjhjJAn69O" cm:name="Humidity" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="is8yeXJi09R6wa_A0" cm:class="ps:parents">
+        <cm:relation cm:id="i5bvJReGREbU42JpZ" cm:type="ps:parent">
+          <cm:target cm:id="iHtfMp9l5Np8TdXV7">./it5303SmvJjtxRX_g</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="itYkh_Cd5sfR_7wBV" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="imsawA6pGaRn95N7i" cm:type="ps:string">51273</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1tOkPt4j6cDABa-f" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i1VJsf3Kx7TVSVGFz" cm:type="ps:datetime">2021-03-02T00:54:55.191Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iZkojTda-9KMOomcv" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="inBJwnfcbIadrA1bx" cm:type="ps:string">51273</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iI1bvMpWC9IM6DGcr" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i2_SsQVDqbWbP9sPS" cm:type="ps:datetime">2021-03-02T00:54:55.191Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>
