@@ -6,9 +6,9 @@
 </cm:relations>
 <cm:properties><cm:property cm:id="i3zwN-l-HrbAMuCMm" cm:type="ps:path" cm:name="module_base"><cm:constant cm:id="iD8id1kX7jiK_EBM3" cm:type="ps:path">$(WORKSPACE)/</cm:constant>
 </cm:property>
-<cm:property cm:id="iZ6UbpZsP4RE0TXpl" cm:type="ps:path" cm:name="input_url"><cm:constant cm:id="iQPLFESTgV1rTbenD" cm:type="ps:path">C:/repo2/src/demo</cm:constant>
+<cm:property cm:id="iZ6UbpZsP4RE0TXpl" cm:type="ps:path" cm:name="input_url"><cm:constant cm:id="i3EI6tefCb58YeaLE" cm:type="ps:path">C:/repos/src/demo</cm:constant>
 </cm:property>
-<cm:property cm:id="i-nLVrI8_pAb-jnd4" cm:type="ps:path" cm:name="output_url"><cm:constant cm:id="iZRiOVuiHjPyc80QR" cm:type="ps:path">C:/repo2/output</cm:constant>
+<cm:property cm:id="i-nLVrI8_pAb-jnd4" cm:type="ps:path" cm:name="output_url"><cm:constant cm:id="iBI43b1fRu3K16Aln" cm:type="ps:path">C:/repos/output</cm:constant>
 </cm:property>
 <cm:property cm:id="ine80KFe-QaZZAZDV" cm:type="ps:path" cm:name="transform_module"><cm:constant cm:id="iyKkIGDXMs70bmL0o" cm:type="ps:path">$(PROJECT)/WebinarConfig/moduleconfig.xml</cm:constant>
 </cm:property>
